@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="icon" href="assets/favicon.png" />
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="stylesheet" href="responsive.css" />
+    <title>Netflix</title>
+    <style>
+      * {
+        font-family: "Open Sans", sans-serif;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="banner_wrap">
+      <div class="overlay"></div>
+      <nav>
+        <img src="./assets/logo_1.png" alt="Netflix Cover Image" />
+        <a href="https://www.netflix.com/za/login" target="_blank">Sign In</a>
+      </nav>
+
+      <div class="banner_container">
+        <h1>
+          Unlimited movies, TV<br />
+          shows, and more.
+        </h1>
+        <h2>Watch anywhere. Cancel anytime.</h2>
+        <br />
+        <form>
+          <h3 class="email_form_title">
+            Ready to watch? Enter your email to create or restart your
+            membership.
+          </h3>
+          <div class="get_started_form">
+            <input type="text" placeholder="Email address" />
+            <button onsubmit="">Get Started ></button>
+          </div>
+        </form>
+      </div>
+    </div>
+
+    <div class="info_container">
+      <div class="info">
+        <h1 class="card_title">Enjoy on your TV.</h1>
+        <p class="card_subtitle">
+          Watch on Smart TVs, Playstation, Xbox, Chromecast, Apple TV, Blu-ray
+          players, and more.
+        </p>
+      </div>
+
+      <div class="tv_container">
+        <img src="assets/tv.png" alt="TV" />
+        <video autoplay="" playsinline="" muted="" loop="">
+          <source
+            src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/video-tv-0819.m4v"
+            type="video/mp4"
+          />
+        </video>
+      </div>
+    </div>
+
+    <footer>
+      <div class="footer_items">
+        <div class="footer_top">
+          <a href="" class="questions_title">Questions? Contact us</a>
+        </div>
+
+        <ul class="footer_links">
+          <li>FAQ</li>
+          <li>Account</li>
+          <li>Help Center</li>
+          <li>Media Center</li>
+          <li>Investor Relation</li>
+          <li>Jobs</li>
+          <li>Redeem Gift Cards</li>
+          <li>Ways to Watch</li>
+          <li>Terms of Use</li>
+          <li>Privacy</li>
+          <li>Cookie Preferences</li>
+          <li>Corporate Information</li>
+          <li>Contact Us</li>
+          <li>Speed Test</li>
+          <li>Legal Notices</li>
+          <li>Only on Netflix</li>
+        </ul>
+
+        <div class="language">
+            <i class="material-icons">language</i>
+            <select name="languages" id="language">
+              <option value="English">English</option>
+              <option value="Swahili">Swahili</option>
+            </select>
+        </div>
+        <p class="footer_country">Netflix South Africa</p>
+      </div>
+    </footer>
+  </body>
+</html>

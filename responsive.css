@@ -1,0 +1,17 @@
+@media (max-width: 768px) and (min-width: 480px){
+
+    .card_subtitle{
+        font-size: 1.2rem;
+        font-weight: 400;
+        margin: 1rem 0;
+    }
+
+    .infor_container{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .info{
+        text-align: center;
+    }
+}

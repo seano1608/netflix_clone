@@ -1,0 +1,211 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;1,300;1,400;1,600&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;1,100;1,300;1,400;1,500&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    color: white;
+}
+.banner_wrap{
+    background-image: url("./assets/bgNetflix.jpg");
+    
+    background-size: cover;
+    background-position: center;
+    height: 70vh;
+    font-size: 20px;
+    border-bottom: 10px solid #222222;
+    position: relative;
+    z-index: 1;
+}
+
+.get_started_form{
+    height: 50px;
+    display: flex;
+    
+}
+
+.get_started_form input{
+    height: 50px;
+    width: 450px;
+    padding-left: 10px;
+}
+
+.get_started_form button{
+    background-color: red;
+    color: white;
+    height: 100%;
+    min-height: 50px;
+    font-size: 1.625rem;
+    border: none;
+    padding: 0 26px;
+    border-left: 1px solid;
+}
+.overlay {
+    z-index: -1;
+    height: 100%;
+    width: 100%;
+    background: black;
+    opacity: 60%;
+    position: absolute;
+    top: 0;
+  }
+
+body{
+    background: black;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.card_title{
+    font-size: 3.125rem;
+    margin-bottom: 0.5rem;
+    line-height: 1.1;
+    font-weight: 600;
+}
+
+.card_subtitle{
+    font-size: 1.625rem;
+    font-weight: 400;
+    margin: 1rem 0;
+}
+
+.email_form_title{
+    font-size: 1.2rem;
+    font-weight: 400;
+    padding-bottom: 20px;
+}
+h1{
+    color: white;
+    font-size: 3.125rem;
+    margin-bottom: 0.5rem;
+    line-height: 1.1;
+}
+
+h2{
+    color: white;
+}
+
+h3{
+    color: white;
+}
+
+.get_started_form h3{
+    font-size: 1rem;
+}
+
+nav{
+    height: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 45px;
+    margin: 0 45px;
+    padding: 45px;
+}
+
+nav img{
+    height: 32px;
+}
+nav a{
+    padding: 7px 17px;
+    color: white;
+    background: red;
+    text-decoration: none;
+    border-radius: 3px;
+}
+.banner_container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: calc(100% - 45px);
+    
+}
+
+.info_container{
+    background: black;
+    color: white;
+    display: flex;
+    padding: 75px 45px;
+    border-bottom: 10px solid #222222;
+}
+
+.info{
+    display: flex;
+    flex-direction: column;    
+    justify-content: center;
+}
+
+.tv_container{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.tv_container img{
+    z-index: 1;
+}
+.tv_container video{
+    position: absolute;
+}
+
+.footer_top{
+    margin-bottom: 30px;
+}
+
+.footer_items{
+    margin: 0 47.5px;
+    padding: 70px 45px;
+}
+footer ul li, .questions_title{
+    color: #757575;
+}
+
+footer ul li:hover, .questions_title{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.questions_title:hover{
+    text-decoration: underline;
+}
+
+.footer_links{
+    list-style: none;
+    columns: 4;
+    padding: 0;    
+}
+
+.footer_links li{
+    font-size: 13px;
+    line-height: 2;
+}
+
+.language{
+    height: 53px;
+    width: 142px;
+    color: #999999;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    border: 1px solid #999999;
+    padding: 0 10px;
+    margin-top: 30px;
+    border-radius: 3px;
+}
+.language select{
+    width: 100%;
+    margin-left: 10px;
+    border: none;
+    appearance: none;
+    background: black;
+    color: #999999;
+    background: url(assets/carrot.png) no-repeat 100%;
+    border: none;
+}
+
+.footer_country{
+    font-size: 13px;
+    margin-top: 24px;
+    color: #757575;
+}
